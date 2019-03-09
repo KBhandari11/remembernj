@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { browserHistory } from 'react-router';
-import { elastic as Menu } from 'react-burger-menu'
+import { elastic as Menu } from 'react-burger-menu';
 import HomePage from './HomePage';
 import About from './About';
 import BeforetheWar from './BeforetheWar';
@@ -15,42 +15,42 @@ const routes = [
   {
     path: "/",
     exact: true,
-    sidebar: () =><div> 1.0 Home</div>,
+    sidebar: () =><div class="head"> 1.0 Home</div>,
     main: () =><Route name="home" exact path="/" component={HomePage} />
   },
   {
     path: "/about",
-    sidebar: () =><div>2.0 About</div>,
+    sidebar: () =><div class="head">2.0 About</div>,
     main: () =><Route exact path="/about" component={About} />
   },
   {
     path: "/beforethewar",
-    sidebar: () =><div>3.0 Before the War</div>,
+    sidebar: () =><div class="head">3.0 Before the War</div>,
     main: () =><Route exact path="/beforethewar" component={BeforetheWar} />
   },
   {
     path: "/kristallnacht",
-    sidebar: () =><div>4.0 Kristallnacht</div>,
+    sidebar: () =><div class="head">4.0 Kristallnacht</div>,
     main: () =><Route exact path="/kristallnacht" component={Kristallnacht} />
   },
   {
     path: "/stories",
-    sidebar: () =><div>5.0 Stories</div>,
+    sidebar: () =><div class="head">5.0 Stories</div>,
     main: () =><Route exact path="/stories" component={Stories} />
   },
   {
     path: "/peter",
-    sidebar: () =><div>5.0.1 Peter Lederman</div>,
+    sidebar: () =><div class="head">5.0.1 Peter Lederman</div>,
     main: () =><Route exact path="/peter" component={Peter} />
   },
   {
     path: "/bea",
-    sidebar: () =><div>5.0.2 Bea Muhlfelder</div>,
+    sidebar: () =><div class="head">5.0.2 Bea Muhlfelder</div>,
     main: () =><Route exact path="/bea" component={Bea} />
   },
   {
     path: "/timeline",
-    sidebar: () => <div>6.0 Timeline</div>,
+    sidebar: () => <div class="head">6.0 Timeline</div>,
     main: () =><Route exact path="/timeline" component={Timeline} />
   }
 ];
@@ -73,7 +73,7 @@ class App extends Component {
         < NavBar/></div>
           <div class="flex-container">
 
-                <div class="slide" style={{ padding: "10px",  width: "10%", height: "20",background: "transparent"   }}>
+                <div class="slide" style={{  width: "15%", height: "20",background: "white"   }}>
                     {routes.map((route, index) => (
 // You can render a <Route> in as many places
 // as you want in your app. It will render along
@@ -106,7 +106,7 @@ class App extends Component {
                   </Menu>
 
               </div>
-              <div class="main">
+              <div class="main" style={{background: "white"   }}>
                     {routes.map((route, index) => (
                         // Render more <Route>s with the same paths as
                         // above, but different components this time.
