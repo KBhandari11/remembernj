@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+const pStyle = {
+  textAlign: 'justify',
+    padding: 30
+};
 class Bea extends Component {
   render() {
     return (
-      <div>
+      <div style={pStyle} >
       <h1>5.0.2 Bea Muhlfelder Story</h1>
       <p>Bea Muhlfelder was born in Konstanz, a small town on the border between Switzerland and Germany. Bea’s father served as a cantor at the synagogue, across the street from her house. When the temple’s rabbi left for Israel, Bea’s father assumed the rabbi’s responsibilities.
 </p>

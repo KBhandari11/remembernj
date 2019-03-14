@@ -1,6 +1,11 @@
 
 import React, { Component } from 'react';
+
 import TimelineComponent from 'react-timeline-component';
+const pStyle = {
+  textAlign: 'center',
+    padding: 30
+};
 const dates = [
   {
     date: '1933-01-30',
@@ -30,7 +35,7 @@ const dates = [
 class Timeline extends Component {
   render() {
     return (
-      <div style={{align:"center"}  }>
+      <div style={pStyle}>
       <TimelineComponent data={ dates }/>
       </div>
     )

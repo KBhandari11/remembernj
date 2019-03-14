@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+const pStyle = {
+  textAlign: 'justify',
+    padding: 30
+};
 class BeforetheWar extends Component {
   render() {
     return (
-      <div>
+      <div style={pStyle} >
       <h1>3.0 Before the War</h1>
       <h2>Life and Loss in Germany: The 80th Anniversary of Kristallnacht</h2>
 

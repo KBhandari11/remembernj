@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+const pStyle = {
+  textAlign: 'justify',
+    padding: 30
+};
 class About extends Component {
   render() {
     return (
-      <div>
+      <div style={pStyle} >
       <h1>About</h1>
 <p>
       On behalf of the Holocaust Remembrance Center Committee, it is our pleasure to welcome you to the Temple Emanu-El Holocaust Remembrance Center (HRC) at Temple Sinai website. This project has been in the works for more than a year and we are proud to share this special dedication site with you.

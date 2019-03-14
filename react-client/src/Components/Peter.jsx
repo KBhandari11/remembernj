@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+const pStyle = {
+  textAlign: 'justify',
+    padding: 30
+};
 class Peter extends Component {
   render() {
     return (
-      <div>
+      <div style={pStyle} >
       <h1>5.0.1 Peter Lederman Story</h1>
       <p>
       Peter Lederman lived in Gotha, Germany, with his parents and maternal grandmother. Peter’s father, Ernst, owned a successful accounting practice. After Hitler’s rise to power in 1933, Peter, then only 2 years old, experienced increased persecution.

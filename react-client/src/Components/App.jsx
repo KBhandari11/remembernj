@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { browserHistory } from 'react-router';
 import { reveal as Menu } from 'react-burger-menu';
 import HomePage from './HomePage';
+import img from './Pics/menu.png';
 import About from './About';
 import BeforetheWar from './BeforetheWar';
 import Kristallnacht from './Kristallnacht';
@@ -68,7 +69,7 @@ class App extends Component {
         </div>
         <div class="topnav" >
           <div style={{ width: "auto"}}>
-          <Menu customBurgerIcon={ <img src={require('./Pics/menu.jpg')} />} >
+          <Menu customBurgerIcon={ <img src={img} />} >
             <a id="Home" className="menu-item" ><Link to="/">Home</Link></a>
             <a id="About" className="menu-item" ><Link to="/about">About</Link></a>
             <a id="" className="menu-item"><Link to="/beforethewar">Before the War</Link></a>
@@ -111,6 +112,7 @@ class App extends Component {
               />
             ))}
         </div>
+        {this.props.children}
 
         <div style={{ width: "100%"}}>
             <Footer/>
