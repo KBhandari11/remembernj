@@ -9,7 +9,7 @@ import BeforetheWar from './BeforetheWar';
 import Kristallnacht from './Kristallnacht';
 import Peter from './Peter';
 import Bea from './Bea';
-import Timeline from './Timeline';
+import VTimeline from './VTimeline';
 import NavBar from './HeaderComponent/NavBar';
 import Footer from './FooterComponent/Footer';
 const routes = [
@@ -52,7 +52,7 @@ const routes = [
   {
     path: "/timeline",
     sidebar: () => <div class="head">Timeline</div>,
-    main: () =><Route exact path="/timeline" component={Timeline} />
+    main: () =><Route exact path="/timeline" component={VTimeline} />
   }
 ];
 class App extends Component {
