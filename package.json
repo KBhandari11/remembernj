@@ -9,6 +9,10 @@
   "build": "webpack -p",
   "react-dev": "webpack -d --watch",
   "server-dev": "nodemon server/index.js"
+  "engines": {
+   "npm": "6.9.0",
+   "node": "11.0.0"
+ },
  },
  "keywords": [
   "holocaust",
