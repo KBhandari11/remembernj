@@ -3,6 +3,8 @@ const pStyle = {
   textAlign: 'justify',
     padding: 30
 };
+import img1 from './Pics/5.0-Stories/Peter-Lerderman/5.0.1-Peter-Lederman.jpg';
+import img2 from './Pics/5.0-Stories/Peter-Lerderman/5.0.2-Peter-Lederman.jpg';
 class Peter extends Component {
   render() {
     return (
@@ -11,9 +13,9 @@ class Peter extends Component {
       <p>
       Peter Lederman lived in Gotha, Germany, with his parents and maternal grandmother. Peter’s father, Ernst, owned a successful accounting practice. After Hitler’s rise to power in 1933, Peter, then only 2 years old, experienced increased persecution.
 </p>
-<p>
-(Photo insert: 5.0.1. Do use this photo!)
-</p>
+<div class="imgl">
+<img src={img1} />
+</div>
 <p>
 During class, Peter and the few Jewish students in his school were forced to sit together in a corner. November 9, 1938 proceeded as usual. Peter went to school, and returned home. But, around midnight, Peter heard his grandmother and mother shouting with some men in black SS uniforms. Peter’s grandmother put her hand over his mouth to quiet him, as Peter, frightened, was screaming. Earlier that night, the SS had taken his father away while Peter was asleep. However, the SS-men returned, searching for his father, who, they claimed, had escaped. The commotion woke Peter up and scared him. The next morning, Peter discovered that his father was in a concentration camp, at Buchenwald. The family knew nothing, not when he would return, or if ever.</p>
 <p>
@@ -28,9 +30,11 @@ Published in the Telegraph, March 13, 1999
 </p>
 <p>
 The Journey That Saved My Life
-(Photo insert: 5.0.2. Do use this photo!)
 </p>
 <p>
+<div class="imgr">
+<img src={img2} />
+</div>
 Now the German air stewardess pushes her trolley down the aisle offering drinks and stops to chat. “It was British European Airlines in those days,” he says.  “And a very different aeroplane.  It was a DC3. Much smaller – I think.”</p>
 <p>
 	“Ah yes,” she says. “The good old days.”  He smiles politely and doesn’t bother to correct her.  The Ledermans are Jewish.</p>

@@ -12,7 +12,7 @@ class VTimeline extends Component {
   render() {
     return (
       <StyleRoot>
-         <Timeline activeColor='yellow'>
+         <Timeline activeColor='yellow' style={{padding:9000}}>
            <div icon='Jan 30, 1933'><h1>Entry 1</h1></div>
            <div>
              <h1>Entry 2</h1>

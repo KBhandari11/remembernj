@@ -9,7 +9,7 @@ body{
 }
 .Page{
   margin: auto;
-  background-color: #4a4a4a;
+  background-color: #545454;
   width: 1440px;
   box-sizing: border-box;
 }
@@ -81,9 +81,8 @@ header {
 
 footer {
   display: block;
-
   height: 50px;
-  background-color: black;
+  background-color: transparent;
   color: white;
 }
 
@@ -145,21 +144,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-cross-button {
   height: 24px;
   width: 24px;
-  position: relative;
 
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
   background: #bdc3c7;
-  position: relative;
+
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
   background-color: white;
   width: 10%;
-
 }
 
 /* Wrapper for item list */
@@ -269,7 +266,27 @@ time {
   margin-bottom: 8px;
 }
 
+/* image wrapping on left
+*/
+.imgl{
+   overflow: hidden;
+   float: left;
+   margin: 20px;
+}
+/* image wrapping on right
+*/
+.imgr{
+   overflow: hidden;
+   float: right;
+   margin: 20px;
+}
+/* image wrapping at center
+*/
+.imgx{
+   overflow: hidden;
+   float: none;
 
+}
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -330,3 +347,4 @@ time {
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   }
+input, textarea, select, a, button { outline: none; }

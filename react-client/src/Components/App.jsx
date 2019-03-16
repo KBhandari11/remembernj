@@ -68,7 +68,7 @@ class App extends Component {
           < NavBar/>
         </div>
         <div class="topnav" >
-          <div style={{ width: "auto"}}>
+          <div>
           <Menu customBurgerIcon={ <img src={img} />} >
             <a id="Home" className="menu-item" ><Link to="/">Home</Link></a>
             <a id="About" className="menu-item" ><Link to="/about">About</Link></a>
