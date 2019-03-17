@@ -295,7 +295,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #F45B69;
+  background: #000000;
 }
 
 .timeline ul li div {

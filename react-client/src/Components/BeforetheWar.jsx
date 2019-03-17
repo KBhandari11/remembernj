@@ -7,7 +7,7 @@ class BeforetheWar extends Component {
   render() {
     return (
       <div style={pStyle} >
-      <h1>3.0 Before the War</h1>
+      <h1> Before the War</h1>
       <h2>Life and Loss in Germany: The 80th Anniversary of Kristallnacht</h2>
 
       <h3>Exhibit Main Panel</h3>

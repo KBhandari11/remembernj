@@ -9,7 +9,7 @@ class Peter extends Component {
   render() {
     return (
       <div style={pStyle} >
-      <h1>5.0.1 Peter Lederman Story</h1>
+      <h1> Peter Lederman Story</h1>
       <p>
       Peter Lederman lived in Gotha, Germany, with his parents and maternal grandmother. Peter’s father, Ernst, owned a successful accounting practice. After Hitler’s rise to power in 1933, Peter, then only 2 years old, experienced increased persecution.
 </p>
@@ -24,12 +24,12 @@ Kristallnacht changed Peter’s life completely. He could no longer attend his G
 <p>
 By Jordan Lederman, granddaughter of Peter Lederman, and a student in the HRC elective, 2018.
 </p>
-<p>
+<p style={{fontWeight:'bold'}}>
 
 Published in the Telegraph, March 13, 1999
 </p>
-<p>
-The Journey That Saved My Life
+<p >
+<h2>The Journey That Saved My Life</h2>
 </p>
 <p>
 <div class="imgr">
